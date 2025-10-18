@@ -16,15 +16,22 @@ Accelerate annotation by connecting Label Studio to machine learning models for 
   - Pre‑annotation
   - Interactive inference
   - Training (webhook‑driven)
-
+ 
+    
+      1- We begin by importing our videos.
 <p align="center"><img src="image1.png" alt=""/></p>
 <p align="center"><img src="image2.png" alt=""/></p>
+       2- Then we just click on the video
 <p align="center"><img src="image3.png" alt=""/></p>
 <p align="center"><img src="image4.png" alt=""/></p>
+      When we click, there is an ML model in the background that automatically labels the video. We use our own trained model to make our specific labels, but with         this method we can automatically label everything from a mug to a person.
 <p align="center"><img src="image5.png" alt=""/></p>
 <p align="center"><img src="image6.png" alt=""/></p>
+      The first version of the video is as above, after clicking, these are the labels that it shows us with one click.
 <p align="center"><img src="image7.png" alt=""/></p>
+      We can also use these opensource (except for watsonx_llm) models and we can write our own ML model backend. 
 
+      
 ## Quick Start
 
 Start an example model (sklearn text classifier) with Docker and connect it to Label Studio.
