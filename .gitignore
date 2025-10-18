@@ -132,3 +132,45 @@ dmypy.json
 .github/actions-hub
 
 .idea/
+
+# macOS / IDE
+.DS_Store
+.vscode/
+
+# Local runtime artifacts
+.ml_sklearn.log
+.ml_sklearn.pid
+.label_studio.log
+.label_studio.pid
+*.pid
+*.log
+cache.db
+
+# ML artifacts and datasets (keep out of Git; use Git LFS)
+data/
+datasets/
+outputs/
+runs/
+checkpoints/
+models/
+weights/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+tb_logs/
+
+# Large/binary model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.onnx
+*.pb
+*.pkl
+*.joblib
+
+# Example-specific
+label_studio_ml/examples/yolo/data/
+label_studio_ml/examples/yolo/models/
